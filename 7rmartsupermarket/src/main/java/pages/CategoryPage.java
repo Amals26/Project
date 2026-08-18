@@ -13,7 +13,7 @@ import utilities.Waitutility;
 public class CategoryPage {
 	
 
-
+	Pageutility obj=new Pageutility();
 	@FindBy(xpath="//a[@class='small-box-footer' and @href=\"https://groceryapp.uniqassosiates.com/admin/list-category\"]")WebElement MoreInfo;
 	@FindBy(xpath="//a[@onclick='click_button(1)']")WebElement New;
 	@FindBy(xpath="//input[@id='category']")WebElement Category;
@@ -31,22 +31,53 @@ public class CategoryPage {
 
 	}
     
-    public void CreateCategory(String Category1) 
-    {
-    		Pageutility obj=new Pageutility();
+    public void ClickMoreInfo()
+    {    	
+  		
     		obj.ClickElement(driver,MoreInfo );
-    		
+    }		
+    
+    public void ClickNew() 
+    {
     		New.click();
-    		Category.sendKeys(Category1);
+    }		
+    
+    public void ClickCategory(String category1) 
+    {
+    		Category.sendKeys(category1);
+    		
+    }		
+    
+    public void  ClickSelect() 
+    {
     		Select.click();
+    		
+    }		
+    
+    public void ClickImageUpload()
+    {
     		FileUploadUtility file =new FileUploadUtility();
-    		file.FileUploadUsingSendKeys(ImageUpload, Constant.APPLEIMG);
+    		file.FileUploadUsingSendKeys(ImageUpload, Constant.APPIMG);
+    		
+    }
+    
+    public void  ClickTopMenu() 
+    {
     		topmenubutton.isSelected();
+    		
+    }	
+    
+    public void ClickRightMenu() 
+    {
     		leftmenubutton.isSelected();
+    }		
+    
+    public void ClickSave()
+    {
     		
     		obj.ClickElement(driver, Save);
-
-    	}
+    }
+    	
     
     
     public boolean isCategoryCreated() {

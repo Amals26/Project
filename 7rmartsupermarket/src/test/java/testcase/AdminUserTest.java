@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import pages.AdminUserPage;
 import pages.LoginPage;
 import utilities.Excelutility;
+import utilities.FakerUtility;
 
 public class AdminUserTest extends Base{
 	
@@ -29,9 +30,13 @@ public class AdminUserTest extends Base{
 	      adminuser.ClickMoreInfo();
 	      adminuser.ClickNew();
 	      
-	      String username2=Excelutility.getStringData(1, 0,"adminuser");
-	      String password2=Excelutility.getStringData(1, 1,"adminuser");
+	     // String username2=Excelutility.getStringData(1, 0,"adminuser");
+	      //String password2=Excelutility.getStringData(1, 1,"adminuser");
+	      FakerUtility fakerutility=new    FakerUtility();
+	      String username2=fakerutility.creatARandomFirstName();
+	      String password2=fakerutility.creatARandomFirstName();
 	      String usertype=Excelutility.getStringData(1, 2,"adminuser");
+
 	      
 	      System.out.println("Username = " + username2);
 	      System.out.println("Password = " + password2);

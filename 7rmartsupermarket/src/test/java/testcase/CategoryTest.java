@@ -28,7 +28,16 @@ public class CategoryTest extends Base {
 	           
 	      CategoryPage category=new CategoryPage(driver);
 	      String category1=Excelutility.getStringData(1, 0,"categoryname");
-	      category.CreateCategory(category1);
+	      
+	      
+	      category.ClickMoreInfo();
+	      category.ClickNew();
+	      category.ClickSelect();
+	      category.ClickCategory(category1);
+	      category.ClickImageUpload();
+	      category.ClickTopMenu();
+	      category.ClickRightMenu();
+	      category.ClickSave();
 	      
 	      
 	      boolean alert=category.isCategoryCreated();

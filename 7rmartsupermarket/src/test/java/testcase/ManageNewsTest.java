@@ -11,7 +11,7 @@ import utilities.Excelutility;
 
 public class ManageNewsTest extends Base {
 
-	@Test
+	@Test(groups= {"Regression"})
 	public void ManageNews() throws IOException {
 		
 		 String username1=Excelutility.getStringData(1, 0,"loginpage");
@@ -25,9 +25,12 @@ public class ManageNewsTest extends Base {
 	      
 	      
 	      ManageNewsPage managenews=new ManageNewsPage(driver);
+	      String Newss=Excelutility.getStringData(1, 0,"News");
+	      
+
 	      managenews.ClickManageNewsInfo();
 	      managenews.ClickNew();
-	      managenews.EnterUploadNews("New Products are Now Avaliable");
+	      managenews.EnterUploadNews(Newss);
 	      managenews.ClickSave();
 	      
 	      boolean alert=managenews.alertisDisplayed();

@@ -10,6 +10,8 @@ public class LoginPage {
 	@FindBy(xpath="//input[@placeholder='Username']")WebElement username;
 	@FindBy(xpath="//input[@placeholder='Password']")WebElement password;
 	@FindBy(xpath="//button[@class='btn btn-dark btn-block']")WebElement signIn;
+	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']")WebElement alert;
+
 	
 	
 	public WebDriver driver;
@@ -39,5 +41,11 @@ public class LoginPage {
 		signIn.click();
 	}
 
+	   
+	   public boolean isalertDisplayed() 
+	   {
+		return alert.isDisplayed();
+		   
+	   }
 
 }

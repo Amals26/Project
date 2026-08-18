@@ -38,10 +38,10 @@ public class ManageNewsPage {
     	New.click();
     }
     
-    public void EnterUploadNews(String newsText)
+    public void EnterUploadNews(String Newss)
     {
     	
-    	uploadNews.sendKeys(newsText);
+    	uploadNews.sendKeys(Newss);
     }
     
     public void ClickSave() 
