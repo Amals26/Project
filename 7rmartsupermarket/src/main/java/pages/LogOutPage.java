@@ -8,7 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 public class LogOutPage {
 	
 	@FindBy(xpath="//a[@data-toggle='dropdown']")WebElement Admin;
-	@FindBy(xpath="//a[@class='dropdown-item' and @href=\"https://groceryapp.uniqassosiates.com/admin/logout\"]")WebElement Logout;
+	@FindBy(xpath="//i[@class='ace-icon fa fa-power-off']") WebElement Logout;
+	//@FindBy(xpath="//a[@class='dropdown-item' and @href=\"https://groceryapp.uniqassosiates.com/admin/logout\"]")WebElement Logout;
 
 	
 	

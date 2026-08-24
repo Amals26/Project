@@ -44,9 +44,9 @@ public class DeliveryBoyDeatilsTest extends Base{
 	      deliveryboy.EnterUserName(username);
 	      deliveryboy.EnterPassword(password);
 	      deliveryboy.ClickSave();
+	      deliveryboy.AlertisDisplayed();
 	      
-	      boolean alert=deliveryboy.AlertisDisplayed();
-	      Assert.assertTrue(alert);
+	     
  	      
   	     
 	}

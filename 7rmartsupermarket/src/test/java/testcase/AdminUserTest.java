@@ -52,7 +52,7 @@ public class AdminUserTest extends Base{
 	      
 	      boolean alert=adminuser.AlertIsDisplayed();
  	      Assert.assertTrue(alert);
- 	     System.out.print("is sucessfully registerd");
+ 	    
  	     
  	    	  
  	      
