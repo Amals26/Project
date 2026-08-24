@@ -12,7 +12,7 @@ import utilities.FakerUtility;
 
 public class AdminUserTest extends Base{
 	
-	@Test
+	@Test(description="Admin user page")
      public void AdminUser() throws IOException {
 
 	      String username1=Excelutility.getStringData(1, 0,"loginpage");
@@ -35,7 +35,7 @@ public class AdminUserTest extends Base{
 	      FakerUtility fakerutility=new    FakerUtility();
 	      String username2=fakerutility.creatARandomFirstName();
 	      String password2=fakerutility.creatARandomFirstName();
-	      String usertype=Excelutility.getStringData(1, 2,"adminuser");
+	      String usertype=Excelutility.getStringData(1, 3,"adminuser");
 
 	      
 	      System.out.println("Username = " + username2);
