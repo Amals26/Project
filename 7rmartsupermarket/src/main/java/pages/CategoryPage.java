@@ -77,6 +77,9 @@ public class CategoryPage {
     
     
     public boolean isalertDisplayed() {
+    	
+    		Waitutility waitutility=new Waitutility();
+    		waitutility.waitForAlertToBeVisible(driver); 
 		
 		return alertmessage.isDisplayed();
 	}
