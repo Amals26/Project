@@ -11,7 +11,7 @@ import utilities.Excelutility;
 
 public class ManageLocationTest extends Base {
 	
-	@Test
+	@Test(groups= {"Regression"},description="manage location")
 	public void ManageLocation() throws IOException {
 		
 		String username1=Excelutility.getStringData(1, 0,"loginpage");

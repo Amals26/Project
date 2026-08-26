@@ -61,14 +61,10 @@ public class CategoryPage {
     		
     }
     
-    public void  ClickTopMenu() 
+    public void  RadioButton() 
     {
-    		topmenubutton.isSelected();
-    		
-    }	
+    		topmenubutton.isSelected();	
     
-    public void ClickRightMenu() 
-    {
     		leftmenubutton.isSelected();
     }		
     
@@ -80,9 +76,8 @@ public class CategoryPage {
     	
     
     
-    public boolean isCategoryCreated() {
-		Waitutility waitutility=new Waitutility();
-		waitutility.waitForElementToBeClickable(driver, alertmessage);
+    public boolean isalertDisplayed() {
+		
 		return alertmessage.isDisplayed();
 	}
     }

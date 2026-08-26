@@ -12,7 +12,7 @@ import utilities.Excelutility;
 
 public class CategoryTest extends Base {
 
-	@Test
+	@Test(groups= {"Regression"})
 	public void Category() throws IOException {
 	
 
@@ -35,12 +35,11 @@ public class CategoryTest extends Base {
 	      category.ClickSelect();
 	      category.ClickCategory(category1);
 	      category.ClickImageUpload();
-	      category.ClickTopMenu();
-	      category.ClickRightMenu();
+	      category.RadioButton();
 	      category.ClickSave();
 	      
 	      
-	      boolean alert=category.isCategoryCreated();
+	      boolean alert=category.isalertDisplayed();
  	      Assert.assertTrue(alert);
 
 	      
