@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Grouping">
-  <test name="ChromeTest">
-  <parameter name="browser" value="Chrome"></parameter>
-  <groups><run><include name="Regression"></include></run></groups>
-    <classes>
-      <class name="testcase.LoginTest"/>
-      <class name="testcase.ManageNewsTest"/>
-      <class name="testcase.DeliveryBoyDeatilsTest"/>
-      <class name="testcase.AdminUserTest"/>
-      <class name="testcase.CategoryTest"/>
-      <class name="testcase.ManageLocationTest"/>
-      <class name="testcase.LogOutTest"/>
+	<test name="ChromeTest">
+		<parameter name="browser" value="Chrome"></parameter>
+		<groups>
+			<run>
+				<include name="Regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testcase.LoginTest" />
+			<class name="testcase.ManageNewsTest" />
+			<class name="testcase.DeliveryBoyDeatilsTest" />
+			<class name="testcase.AdminUserTest" />
+			<class name="testcase.CategoryTest" />
+			<class name="testcase.ManageLocationTest" />
+			 <class name="testcase.HomeTest"/>
 
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

@@ -1,42 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="CrossBrowserTesting">
-  <test  name="ChromeTest">
-  <parameter name="browser" value="chrome"></parameter>
-    <classes>
-      <class name="testcase.LoginTest">
-      <methods>
-      <include name="VerifyuserisabletoLoginWithValidCreditional"></include>   
-      </methods>
-      </class>
-      <class name="testcase.DeliveryBoyDeatilsTest"/>
-      <class name="testcase.ManageNewsTest"/>
+	<test name="ChromeTest">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="testcase.LoginTest">
+				<methods>
+					<include name="VerifyuserisabletoLoginWithValidCreditional"></include>
+				</methods>
+			</class>
+			<class name="testcase.DeliveryBoyDeatilsTest" />
+			<class name="testcase.ManageNewsTest" />
 
-      <class name="testcase.AdminUserTest"/>
-      <class name="testcase.CategoryTest"/>
-      <class name="testcase.ManageLocationTest"/>
-      <class name="testcase.LogOutTest"/>
+			<class name="testcase.AdminUserTest" />
+			<class name="testcase.CategoryTest" />
+			<class name="testcase.ManageLocationTest" />
+			 <class name="testcase.HomeTest"/>
 
-    </classes>
-  </test> <!-- Test -->
-  
-  
-  <test  name="EdgeTest">
-  <parameter name="browser" value="edge"></parameter>
-   <classes>
-      <class name="testcase.LoginTest">
-      <methods>
-      <include name="VerifyuserisabletoLoginWithValidCreditional"></include>   
-      </methods>
-      </class>
-      <class name="testcase.DeliveryBoyDeatilsTest"/>
-      <class name="testcase.ManageNewsTest"/>
+		</classes>
+	</test> <!--
+	Test -->
 
-      <class name="testcase.AdminUserTest"/>
-      <class name="testcase.CategoryTest"/>
-      <class name="testcase.ManageLocationTest"/>
-      <class name="testcase.LogOutTest"/>
 
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+	<test name="EdgeTest">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="testcase.LoginTest">
+				<methods>
+					<include name="VerifyuserisabletoLoginWithValidCreditional"></include>
+				</methods>
+			</class>
+			<class name="testcase.DeliveryBoyDeatilsTest" />
+			<class name="testcase.ManageNewsTest" />
+
+			<class name="testcase.AdminUserTest" />
+			<class name="testcase.CategoryTest" />
+			<class name="testcase.ManageLocationTest" />
+			 <class name="testcase.HomeTest"/>
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

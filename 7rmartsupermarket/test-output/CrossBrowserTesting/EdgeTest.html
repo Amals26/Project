@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>EdgeTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Aug 18 10:16:46 IST 2026</td>
+<td>Started on:</td><td>Tue Sep 01 15:22:30 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>62 seconds (62803 ms)</td>
+<tr><td>Total time:</td><td>128 seconds (128810 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,118 +76,61 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcase.DeliveryBoyDeatilsTest.DeliverBoyDeatils()'><b>DeliverBoyDeatils</b><br>Test class: testcase.DeliveryBoyDeatilsTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-success alert-dismissible&apos;]&quot;}
-  (Session info: MicrosoftEdge=151.0.4129.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [63437f72e1fdefccd91d0a1736721047, findElement {value=//div[@class=&apos;alert alert-success alert-dismissible&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 151.0.4129.86, fedcm:accounts: true, goog:processID: 37796, ms:edgeOptions: {debuggerAddress: localhost:56579}, msedge: {msedgedriverVersion: 151.0.4129.93 (4a822b1bb7a8..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56579/devtoo..., se:cdpVersion: 151.0.4129.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 63437f72e1fdefccd91d0a1736721047
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at pages.DeliveryBoyDeatilsPage.AlertisDisplayed(DeliveryBoyDeatilsPage.java:82)
-	at testcase.DeliveryBoyDeatilsTest.DeliverBoyDeatils(DeliveryBoyDeatilsTest.java:48)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace733693146", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace733693146'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-success alert-dismissible&apos;]&quot;}
-  (Session info: MicrosoftEdge=151.0.4129.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [63437f72e1fdefccd91d0a1736721047, findElement {value=//div[@class=&apos;alert alert-success alert-dismissible&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 151.0.4129.86, fedcm:accounts: true, goog:processID: 37796, ms:edgeOptions: {debuggerAddress: localhost:56579}, msedge: {msedgedriverVersion: 151.0.4129.93 (4a822b1bb7a8..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56579/devtoo..., se:cdpVersion: 151.0.4129.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 63437f72e1fdefccd91d0a1736721047
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at pages.DeliveryBoyDeatilsPage.AlertisDisplayed(DeliveryBoyDeatilsPage.java:82)
-	at testcase.DeliveryBoyDeatilsTest.DeliverBoyDeatils(DeliveryBoyDeatilsTest.java:48)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>8</td>
-<td>testcase.DeliveryBoyDeatilsTest@5e5d171f</td></tr>
-<tr>
 <td title='testcase.CategoryTest.Category()'><b>Category</b><br>Test class: testcase.CategoryTest</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-success alert-dismissible&apos;]&quot;}.
-(tried for 5 seconds with 500 milliseconds interval)
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-success alert-dismissible&apos;]&quot;}
+  (Session info: MicrosoftEdge=152.0.4191.53)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.3&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 151.0.4129.86, fedcm:accounts: true, goog:processID: 37236, ms:edgeOptions: {debuggerAddress: localhost:50461}, msedge: {msedgedriverVersion: 151.0.4129.93 (4a822b1bb7a8..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50461/devtoo..., se:cdpVersion: 151.0.4129.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0449bcec9a23fc10271987ed40df7378
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at utilities.Waitutility.waitForElementToBeClickable(Waitutility.java:16)
-	at pages.CategoryPage.isCategoryCreated(CategoryPage.java:85)
+Command: [703eb83d73d04c8875a387569a8401cf, findElement {using=xpath, value=//div[@class=&apos;alert alert-success alert-dismissible&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 152.0.4191.53, fedcm:accounts: true, goog:processID: 36388, ms:edgeOptions: {debuggerAddress: localhost:54790}, msedge: {msedgedriverVersion: 152.0.4191.53 (4ee8983fdce2..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54790/devtoo..., se:cdpVersion: 152.0.4191.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 703eb83d73d04c8875a387569a8401cf
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+	at pages.CategoryPage.isalertDisplayed(CategoryPage.java:98)
 	at testcase.CategoryTest.Category(CategoryTest.java:43)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace260580453", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace260580453'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-success alert-dismissible&apos;]&quot;}.
-(tried for 5 seconds with 500 milliseconds interval)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1888578277", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1888578277'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-success alert-dismissible&apos;]&quot;}
+  (Session info: MicrosoftEdge=152.0.4191.53)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.3&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 151.0.4129.86, fedcm:accounts: true, goog:processID: 37236, ms:edgeOptions: {debuggerAddress: localhost:50461}, msedge: {msedgedriverVersion: 151.0.4129.93 (4a822b1bb7a8..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50461/devtoo..., se:cdpVersion: 151.0.4129.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0449bcec9a23fc10271987ed40df7378
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at utilities.Waitutility.waitForElementToBeClickable(Waitutility.java:16)
-	at pages.CategoryPage.isCategoryCreated(CategoryPage.java:85)
+Command: [703eb83d73d04c8875a387569a8401cf, findElement {using=xpath, value=//div[@class=&apos;alert alert-success alert-dismissible&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 152.0.4191.53, fedcm:accounts: true, goog:processID: 36388, ms:edgeOptions: {debuggerAddress: localhost:54790}, msedge: {msedgedriverVersion: 152.0.4191.53 (4ee8983fdce2..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54790/devtoo..., se:cdpVersion: 152.0.4191.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 703eb83d73d04c8875a387569a8401cf
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+	at pages.CategoryPage.isalertDisplayed(CategoryPage.java:98)
 	at testcase.CategoryTest.Category(CategoryTest.java:43)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -196,7 +139,7 @@ Session ID: 0449bcec9a23fc10271987ed40df7378
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -213,8 +156,174 @@ Session ID: 0449bcec9a23fc10271987ed40df7378
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>8</td>
-<td>testcase.CategoryTest@77f1baf5</td></tr>
+<td>11</td>
+<td>testcase.CategoryTest@2b662a77</td></tr>
+<tr>
+<td title='testcase.AdminUserTest.AdminUser()'><b>AdminUser</b><br>Test class: testcase.AdminUserTest<br>Test method: Admin user page</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-danger alert-dismissible&apos;]&quot;}
+  (Session info: MicrosoftEdge=152.0.4191.53)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ed18bde60788b89c992d104ae714e589, findElement {using=xpath, value=//div[@class=&apos;alert alert-danger alert-dismissible&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 152.0.4191.53, fedcm:accounts: true, goog:processID: 2668, ms:edgeOptions: {debuggerAddress: localhost:57609}, msedge: {msedgedriverVersion: 152.0.4191.53 (4ee8983fdce2..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57609/devtoo..., se:cdpVersion: 152.0.4191.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed18bde60788b89c992d104ae714e589
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+	at pages.AdminUserPage.AlertIsDisplayed(AdminUserPage.java:79)
+	at testcase.AdminUserTest.AdminUser(AdminUserTest.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace906576462", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace906576462'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-danger alert-dismissible&apos;]&quot;}
+  (Session info: MicrosoftEdge=152.0.4191.53)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ed18bde60788b89c992d104ae714e589, findElement {using=xpath, value=//div[@class=&apos;alert alert-danger alert-dismissible&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 152.0.4191.53, fedcm:accounts: true, goog:processID: 2668, ms:edgeOptions: {debuggerAddress: localhost:57609}, msedge: {msedgedriverVersion: 152.0.4191.53 (4ee8983fdce2..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57609/devtoo..., se:cdpVersion: 152.0.4191.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed18bde60788b89c992d104ae714e589
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+	at pages.AdminUserPage.AlertIsDisplayed(AdminUserPage.java:79)
+	at testcase.AdminUserTest.AdminUser(AdminUserTest.java:58)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>10</td>
+<td>testcase.AdminUserTest@57a3af25</td></tr>
+<tr>
+<td title='testcase.DeliveryBoyDeatilsTest.DeliverBoyDeatils()'><b>DeliverBoyDeatils</b><br>Test class: testcase.DeliveryBoyDeatilsTest<br>Test method: deliveryboy Deatils</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-success alert-dismissible&apos;]&quot;}
+  (Session info: MicrosoftEdge=152.0.4191.53)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4bf5aef6e75b9d05e473b35938f7e921, findElement {using=xpath, value=//div[@class=&apos;alert alert-success alert-dismissible&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 152.0.4191.53, fedcm:accounts: true, goog:processID: 38796, ms:edgeOptions: {debuggerAddress: localhost:62893}, msedge: {msedgedriverVersion: 152.0.4191.53 (4ee8983fdce2..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62893/devtoo..., se:cdpVersion: 152.0.4191.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bf5aef6e75b9d05e473b35938f7e921
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+	at pages.DeliveryBoyDeatilsPage.AlertisDisplayed(DeliveryBoyDeatilsPage.java:101)
+	at testcase.DeliveryBoyDeatilsTest.DeliverBoyDeatils(DeliveryBoyDeatilsTest.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1878388461", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1878388461'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-success alert-dismissible&apos;]&quot;}
+  (Session info: MicrosoftEdge=152.0.4191.53)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4bf5aef6e75b9d05e473b35938f7e921, findElement {using=xpath, value=//div[@class=&apos;alert alert-success alert-dismissible&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 152.0.4191.53, fedcm:accounts: true, goog:processID: 38796, ms:edgeOptions: {debuggerAddress: localhost:62893}, msedge: {msedgedriverVersion: 152.0.4191.53 (4ee8983fdce2..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62893/devtoo..., se:cdpVersion: 152.0.4191.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bf5aef6e75b9d05e473b35938f7e921
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+	at pages.DeliveryBoyDeatilsPage.AlertisDisplayed(DeliveryBoyDeatilsPage.java:101)
+	at testcase.DeliveryBoyDeatilsTest.DeliverBoyDeatils(DeliveryBoyDeatilsTest.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>14</td>
+<td>testcase.DeliveryBoyDeatilsTest@77847718</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -225,25 +334,20 @@ Session ID: 0449bcec9a23fc10271987ed40df7378
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcase.LogOutTest.Logout()'><b>Logout</b><br>Test class: testcase.LogOutTest</td>
+<td title='testcase.ManageLocationTest.ManageLocation()'><b>ManageLocation</b><br>Test class: testcase.ManageLocationTest<br>Test method: manage location</td>
 <td></td>
-<td>2</td>
-<td>testcase.LogOutTest@6c40365c</td></tr>
+<td>7</td>
+<td>testcase.ManageLocationTest@7f0eb4b4</td></tr>
 <tr>
-<td title='testcase.AdminUserTest.AdminUser()'><b>AdminUser</b><br>Test class: testcase.AdminUserTest</td>
+<td title='testcase.HomeTest.Logout()'><b>Logout</b><br>Test class: testcase.HomeTest</td>
 <td></td>
-<td>2</td>
-<td>testcase.AdminUserTest@7d20d0b</td></tr>
+<td>5</td>
+<td>testcase.HomeTest@5c33f1a9</td></tr>
 <tr>
 <td title='testcase.ManageNewsTest.ManageNews()'><b>ManageNews</b><br>Test class: testcase.ManageNewsTest</td>
 <td></td>
-<td>3</td>
-<td>testcase.ManageNewsTest@24313fcc</td></tr>
-<tr>
-<td title='testcase.ManageLocationTest.ManageLocation()'><b>ManageLocation</b><br>Test class: testcase.ManageLocationTest</td>
-<td></td>
-<td>3</td>
-<td>testcase.ManageLocationTest@41a2befb</td></tr>
+<td>18</td>
+<td>testcase.ManageNewsTest@7f3b84b8</td></tr>
 </table><p>
 </body>
 </html>

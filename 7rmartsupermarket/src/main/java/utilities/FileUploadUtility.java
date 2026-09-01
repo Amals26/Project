@@ -10,14 +10,15 @@ import java.awt.event.KeyEvent;
 import org.openqa.selenium.WebElement;
 
 public class FileUploadUtility {
-	
-	public void FileUploadUsingSendKeys(WebElement element,String path) {
-		
+
+	public void FileUploadUsingSendKeys(WebElement element, String path) {
+
 		element.sendKeys(path);
-		
+
 	}
-  public void FileUploadUsingRobotClass(String Filepath ) throws AWTException {
-	  StringSelection ss = new StringSelection(Filepath);
+
+	public void FileUploadUsingRobotClass(String Filepath) throws AWTException {
+		StringSelection ss = new StringSelection(Filepath);
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
 		Robot robot = new Robot();
 		robot.delay(250);
@@ -27,7 +28,6 @@ public class FileUploadUtility {
 		robot.keyRelease(KeyEvent.VK_CONTROL);
 		robot.keyPress(KeyEvent.VK_ENTER);
 		robot.keyRelease(KeyEvent.VK_ENTER);
-  }
-  
-  }
+	}
 
+}

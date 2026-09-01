@@ -6,18 +6,25 @@
     <classes>
       <class name="testcase.CategoryTest">
         <methods>
-          <include name="QuitandClose"/>
           <include name="browserIntilization"/>
+          <include name="browserQuit"/>
           <include name="Category"/>
         </methods>
       </class> <!-- testcase.CategoryTest -->
       <class name="testcase.DeliveryBoyDeatilsTest">
         <methods>
-          <include name="QuitandClose"/>
           <include name="browserIntilization"/>
           <include name="DeliverBoyDeatils"/>
+          <include name="browserQuit"/>
         </methods>
       </class> <!-- testcase.DeliveryBoyDeatilsTest -->
+      <class name="testcase.AdminUserTest">
+        <methods>
+          <include name="AdminUser"/>
+          <include name="browserIntilization"/>
+          <include name="browserQuit"/>
+        </methods>
+      </class> <!-- testcase.AdminUserTest -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
   <test thread-count="5" name="EdgeTest(failed)">
@@ -25,18 +32,25 @@
     <classes>
       <class name="testcase.CategoryTest">
         <methods>
-          <include name="QuitandClose"/>
           <include name="browserIntilization"/>
+          <include name="browserQuit"/>
           <include name="Category"/>
         </methods>
       </class> <!-- testcase.CategoryTest -->
       <class name="testcase.DeliveryBoyDeatilsTest">
         <methods>
-          <include name="QuitandClose"/>
           <include name="browserIntilization"/>
           <include name="DeliverBoyDeatils"/>
+          <include name="browserQuit"/>
         </methods>
       </class> <!-- testcase.DeliveryBoyDeatilsTest -->
+      <class name="testcase.AdminUserTest">
+        <methods>
+          <include name="AdminUser"/>
+          <include name="browserIntilization"/>
+          <include name="browserQuit"/>
+        </methods>
+      </class> <!-- testcase.AdminUserTest -->
     </classes>
   </test> <!-- EdgeTest(failed) -->
 </suite> <!-- Failed suite [CrossBrowserTesting] -->
