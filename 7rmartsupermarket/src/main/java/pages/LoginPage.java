@@ -16,7 +16,7 @@ public class LoginPage {
 	@FindBy(xpath = "//button[@class='btn btn-dark btn-block']")
 	WebElement signIn;
 	
-	@FindBy(xpath="//i[@class='icon fas fa-ban']")
+	@FindBy(xpath = "//h5[text()=' Alert!']")
 	WebElement alert;
 
 	public WebDriver driver;

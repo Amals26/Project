@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import constant.Constant;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.ManageLocationPage;
@@ -50,7 +51,7 @@ public class ManageLocationTest extends Base {
 		 */
 
 		boolean alert = locations.Locationiscerated();
-		Assert.assertTrue(alert);
+		Assert.assertTrue(alert,Constant.MANAGELOCATION);
 
 	}
 

@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import constant.Constant;
 import pages.DeliveryBoyDeatilsPage;
 import pages.HomePage;
 import pages.LoginPage;
@@ -47,7 +48,7 @@ public class DeliveryBoyDeatilsTest extends Base {
 		 */
 
 		boolean alert = deliveryboy.AlertisDisplayed();
-		Assert.assertTrue(alert);
+		Assert.assertTrue(alert,Constant.DELIVERYBOYDEATILS);
 
 	}
 

@@ -2,6 +2,7 @@ package utilities;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -21,6 +22,21 @@ public class Waitutility {
 	public void waitForAlertToBeVisible(WebDriver driver) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT));
 		wait.until(ExpectedConditions.alertIsPresent());
+	}
+	
+	public void waitForElementToBeVisible(WebDriver driver, WebElement element) {
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT));
+	    wait.until(ExpectedConditions.visibilityOf(element));
+	}
+	
+	public void waitForElementToBePresent(WebDriver driver, By locator) {
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT));
+	    wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+	}
+	
+	public void waitForTextToBePresent(WebDriver driver, WebElement element, String text) {
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT));
+	    wait.until(ExpectedConditions.textToBePresentInElement(element, text));
 	}
 
 }

@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import constant.Constant;
 import pages.CategoryPage;
 import pages.HomePage;
 import pages.LoginPage;
@@ -39,7 +40,7 @@ public class CategoryTest extends Base {
 		 */
 
 		boolean alert = category.isalertDisplayed();
-		Assert.assertTrue(alert);
+		Assert.assertTrue(alert,Constant.CATEGORY);
 
 	}
 }
