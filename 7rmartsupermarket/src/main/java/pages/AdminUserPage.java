@@ -30,7 +30,7 @@ public class AdminUserPage {
 	@FindBy(xpath = "//button[@name='Create']")
 	WebElement save;
 
-	@FindBy(xpath = "//div[@class='alert alert-danger alert-dismissible']")
+	@FindBy(xpath = "//i[@class='icon fas fa-check']")
 	WebElement Alert;
 
 	public WebDriver driver;

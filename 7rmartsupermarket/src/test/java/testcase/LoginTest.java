@@ -18,7 +18,8 @@ public class LoginTest extends Base {
 
 		String username1 = Excelutility.getStringData(1, 0, "loginpage");
 		String password1 = Excelutility.getStringData(1, 1, "loginpage");
-
+          
+		homepage=new HomePage(driver);
 		LoginPage loginpage = new LoginPage(driver);
 		// use chaning method
 		loginpage.EnterUsername(username1).EnterPassword(password1);
